@@ -7,7 +7,7 @@ const app = express(); // đối tượng nhận phương thức
 const port = 3000; 
 
 // static file
-app.use(express.static(path.join(__dirname, 'public'))); 
+app.use(express.static(path.join(__dirname, 'public'))); // đã vô đến đường dẫn của file tĩnh
 console.log(path.join(__dirname, 'public')); 
 
 

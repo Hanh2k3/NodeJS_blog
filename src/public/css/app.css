@@ -1,3 +1,4 @@
-h2 {
-  color: red;
-  font-weight: 800; }
+h1 {
+  color: green;
+  font-weight: 800;
+  display: inline-block; }
